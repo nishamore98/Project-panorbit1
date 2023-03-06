@@ -26,7 +26,7 @@ export default function NavBar() {
           className={window.location.href.includes("/User/Posts") && "active"}
         >
           Posts
-        </Link>{" "}
+        </Link>
         <hr />
         <Link
           to="/User/Gallery"
